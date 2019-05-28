@@ -1,4 +1,4 @@
-package com.enid.spring.cloud.springcloud;
+package com.enid.spring.cloud.weather;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
