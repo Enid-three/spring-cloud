@@ -1,5 +1,7 @@
 package com.enid.spring.cloud.weather.vo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.io.Serializable;
 
 public class Yesterday implements Serializable {
@@ -15,6 +17,7 @@ public class Yesterday implements Serializable {
         return date;
     }
 
+    @JsonProperty("date")
     public void setDate(String date) {
         this.date = date;
     }
@@ -31,6 +34,7 @@ public class Yesterday implements Serializable {
         return direction;
     }
 
+    @JsonProperty("fx")
     public void setDirection(String direction) {
         this.direction = direction;
     }
@@ -47,6 +51,7 @@ public class Yesterday implements Serializable {
         return power;
     }
 
+    @JsonProperty("fl")
     public void setPower(String power) {
         this.power = power;
     }

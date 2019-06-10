@@ -1,5 +1,7 @@
 package com.enid.spring.cloud.weather.vo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.io.Serializable;
 
 public class Forecast implements Serializable {
@@ -31,6 +33,7 @@ public class Forecast implements Serializable {
         return direction;
     }
 
+    @JsonProperty("fengxiang")
     public void setDirection(String direction) {
         this.direction = direction;
     }
@@ -47,6 +50,7 @@ public class Forecast implements Serializable {
         return power;
     }
 
+    @JsonProperty("fengli")
     public void setPower(String power) {
         this.power = power;
     }
