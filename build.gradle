@@ -20,4 +20,5 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-security'
 	compile 'org.springframework.boot:spring-boot-starter-data-redis'
 	compile 'org.springframework.boot:spring-boot-starter-quartz'
+	compile 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
